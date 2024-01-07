@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* =======================
     Common Css Part Start
   ======================== */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  margin: 50px 140px 0 140px;
 }
 
 /* =======================
@@ -12,44 +19,94 @@
   ======================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 /* =======================
-    Common Css Part Start
+    Header Part Start
   ======================== */
+.banner {
+  padding: 150px 335px;
+  background: url('../images/Banner\ Image.png');
+  background-size: cover;
+  background-position: center, ;
+  border-radius: 16px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.overly {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+}
+
 /* =======================
-    Common Css Part End
+    Header Part End
   ======================== */
+
 /* =======================
-    Common Css Part Start
+    New Year Discount Part Start
   ======================== */
+  #new_year_off{
+    margin: 120px 0;
+  }
+  .discount_details{
+    width: 800px;
+    margin: 0 auto;
+  }
+.discount_text h2{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 35px;
+}
+.discount_text h5{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.discount_text h3{
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size:39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.new_year_image{
+  margin-top: 50px;
+}
 /* =======================
-    Common Css Part End
+    New Year Discount Part End
   ======================== */
 /* =======================
     Common Css Part Start
