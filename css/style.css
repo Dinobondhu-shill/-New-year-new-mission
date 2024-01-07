@@ -209,65 +209,200 @@ a {
 /* =======================
     location Css Part Start
   ======================== */
-  #location{
-    margin-bottom: 120px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .location_details{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    padding: 100px 260px;
-    text-align: center;
-    border-radius: 15px;
-  }  
-  .location_details p{
-    color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
-  }
-  .location_details p span{
-    color: #F00;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
-  }
-  .location_details p:nth-last-child(2){
-    margin-bottom: 50px;
-  }
-  .location_details a{
-    padding: 16px 30px;
-    border-radius: 8px;
+#location {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.location_details {
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  padding: 100px 260px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.location_details p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.location_details p span {
+  color: #F00;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.location_details p:nth-last-child(2) {
+  margin-bottom: 50px;
+}
+
+.location_details a {
+  padding: 16px 30px;
+  border-radius: 8px;
   background: #F00;
   color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-text-transform: uppercase;
-  }
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 /* =======================
     location Css Part End
   ======================== */
+
 /* =======================
-    Common Css Part Start
+    New Offer Css Part Start
   ======================== */
+#new_offer {
+  margin-bottom: 120px;
+}
+
+.details_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.offer_heading {
+  width: 30%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer_heading h5 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.offer_heading h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0 22px;
+}
+
+.offer_heading p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.offer_photo {
+  width: 35%;
+  padding: 0 35px;
+  position: relative;
+}
+.offer_photo::after{
+    content: '';
+    width: 385px;
+    height: 385px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    position: absolute;
+    top: -24px;
+    left: 11px;
+}
+.offer_summary {
+  width: 25%;
+  margin-left: 110px;
+}
+.offer_summary h3{
+  color: #F00;
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+margin: 60px 0 15px;
+}
+.offer_summary p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 50px;
+}
 /* =======================
-    Common Css Part End
+    New Offer Css Part End
   ======================== */
+
 /* =======================
-    Common Css Part Start
+    Holidays Css Part Start
   ======================== */
+#holidays{
+  margin-bottom: 120px;
+}
+.section_text{
+  text-align: center;
+}
+.section_text h5{
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.section_text h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: normal;
+  margin:15px 0 28px;
+}
+.section_text h2 span{
+  color: #F00;
+}
+.section_text p{
+  width: 750px;
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+margin: 0 auto;
+}
+.photo_section{
+  margin-top: 50px;
+  position: relative;
+}
+.khucra_image .box{
+position: absolute;
+bottom: 22px;
+left: 30px;
+}
+.girl_photo{
+display: flex;
+justify-content: end;
+}
+.khucra_image .discount {
+  position: absolute;
+  top: 100px;
+  right: 280px;
+}
 /* =======================
-    Common Css Part End
+    Holidays Css Part End
   ======================== */
 /* =======================
     Common Css Part Start
