@@ -14,6 +14,10 @@
   margin: 50px 140px 0 140px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* =======================
     Common Css Part End
   ======================== */
@@ -67,23 +71,26 @@
 /* =======================
     New Year Discount Part Start
   ======================== */
-  #new_year_off{
-    margin: 120px 0;
-  }
-  .discount_details{
-    width: 800px;
-    margin: 0 auto;
-  }
-.discount_text h2{
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 70px;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 35px;
+#new_year_off {
+  margin: 120px 0;
 }
-.discount_text h5{
+
+.discount_details {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.discount_text h2 {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.discount_text h5 {
   color: #F00;
   text-align: center;
   font-family: Inter;
@@ -93,26 +100,110 @@ margin-bottom: 35px;
   line-height: normal;
   margin-bottom: 15px;
 }
-.discount_text h3{
+
+.discount_text h3 {
   color: #070211;
   text-align: center;
   font-family: Inter;
-  font-size:39px;
+  font-size: 39px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.new_year_image{
+
+.new_year_image {
   margin-top: 50px;
 }
+
 /* =======================
     New Year Discount Part End
   ======================== */
+
 /* =======================
-    Common Css Part Start
+    New Year Party Part Start
   ======================== */
+#party {
+  margin-bottom: 120px;
+}
+
+.party_banner {
+  padding: 0px 110px 60px;
+  background: url('../images/Vectorrr.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.party_overly {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.party_details {
+  padding-top: 80px;
+}
+
+.party_details h2 {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 6.04px;
+  width: 562px;
+  padding-bottom: 20px;
+}
+
+.party_details p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 567px;
+  padding-bottom: 30px;
+}
+
+.join_button {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border: .5px solid #757575;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: all .3s ease;
+}
+
+.join_button:hover {
+  border: 2px solid #757575;
+}
+
+.party_photo {
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+.party_photo img {
+  width: 100%;
+}
+
 /* =======================
-    Common Css Part End
+    New Year Party Part End
   ======================== */
 /* =======================
     Common Css Part Start
